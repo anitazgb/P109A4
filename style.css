@@ -3,7 +3,7 @@ body {
   background-color: #f2f2f2;
 }
 
-h1 {
+h1, p {
   text-align: center;
 }
 
@@ -25,6 +25,7 @@ label {
 input[type="text"],
 input[type="email"],
 input[type="tel"],
+input[type="password"],
 textarea {
   width: 100%;
   padding: 8px;
@@ -56,4 +57,14 @@ input[type="submit"] {
   color: red;
   margin-bottom: 10px;
 }
+
+footer {
+  text-align: center;
+}
+
+footer img {
+  display: inline-block;
+  vertical-align: middle;
+}
+
 
